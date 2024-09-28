@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記憶翻牌遊戲</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>記憶翻牌遊戲</h1><br>
+    <button id="start-button">開始遊戲</button>
+    <div id="control-buttons" style="display: none;">
+        <button id="flip-all-cards-button">翻開所有卡片</button>
+        <button id="flip-back-cards-button">翻回所有卡片</button>
+    </div>
+    
+    <div id="timer">倒數: <span id="countdown-seconds">10</span> 秒</div>
+    
+    <div id="image-container">
+        <img src="klee4.jpg" alt="Description of image" id="inserted-image">
+        <img src="klee5.jpeg" alt="Description of image" id="inserted-image"><br>
+    </div>
+
+    <select id="level-selector">
+        <option value="easy" selected>美國總統記憶翻牌遊戲</option>
+        <option value="medium">大學記憶翻牌遊戲</option>
+    </select>
+    
+    <div id="game-board" class="game-board"></div>
+    <script src="script.js"></script>
+    <br><br><br><h3>50915122</h3><br>
+</body>
+</html>
